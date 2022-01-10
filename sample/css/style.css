@@ -1,0 +1,56 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: blue;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  margin: 10px;
+}
+
+.main .h-about {
+  color: white;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.main .main-paragraph1, .main .main-paragraph2 {
+  color: yellow;
+  font-weight: 400;
+}
+
+.main .main-paragraph1:hover, .main .main-paragraph2:hover {
+  color: white;
+}
+
+.main .main-paragraph2:hover {
+  color: brown;
+}
+
+@media (max-width: 800px) {
+  .main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=style.css.map */
